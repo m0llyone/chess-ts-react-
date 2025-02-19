@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 15px;
+  margin-right: 20px;
+
+  .button {
+    border-radius: 10px;
+    border: 1px solid transparent;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #e7e7e7;
+    cursor: pointer;
+    transition: 0.2s;
+
+    &:hover {
+      background-color: rgb(22, 22, 22);
+      border-color: #ffffff;
+      color: #ffffff;
+    }
+  }
+}
